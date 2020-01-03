@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1><strong>Contact Me</strong></h1>
+  <ul>
+    <li><a href="mailto:doug.reyes923@gmail.com">Email</a></li>
+    <li><a href="https://www.linkedin.com/in/douglasreyes/">LinkedIn</a></li>
+    <li><a href="tel:+19803436450">Phone</a></li>
+  </ul>
+  <hr />
+  <form action="mailto:doug.reyes923@gmail.com" method="post" enctype="text/plain">
+    <!-- action indicates what happens when you press submit -->
+    <!-- enctype tells the browser how the form data is to be encodeds -->
+    <table>
+      <thead>
+        <th>
+          <h3>Contact Me Form</h3>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label>Your Name: </label></td>
+          <td>
+            <input type="text" name="yourName" value="">
+          </td>
+        </tr>
+        <tr>
+          <td><label>Your Email:</label></td>
+          <td><input type="email" name="yourEmail" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Your Message:</label></td>
+          <td><textarea name="yourMessage" rows="10" cols="30" spellcheck="true">Leave your message here!</textarea> </td>
+          <!-- rows=height & cols=width -->
+        </tr>
+      </tbody>
+
+    </table>
+    <br>
+    <input type="submit" name="" value="Submit">
+  </form>
+</body>
+
+</html>

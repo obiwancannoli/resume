@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- tells the browser what type of HTML is needed -->
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- tells the browser information about the page -->
+  <meta charset="utf-8"> <!-- information that can't be included in any other tag -->
+  <title>Doug's Dank Site</title>
+</head>
+<!-- control+option+b = beautify -->
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td><img src="selfie.jpeg" alt="Doug's Profile Picture"> <!-- can simply refer to the image if it is in the same directory -->
+      </td>
+      <td>
+        <h1>Douglas Reyes</h1>
+        <p><em>Young Padawan learning how to become <strong> <a href="https://en.wikipedia.org/wiki/Jedi" target="_blank">Jedi</a></strong> at website development.</em></p>
+        <p>I am excited to embark on this journey of learning how to program websites! </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr />
+  <h3>Education</h3>
+  <ul>
+    <li><strong><a href="https://www.unc.edu/">University of North Carolina at Chapel Hill</a></strong></li>
+    <ul>
+      <li>
+        <em>Psychology, Bachelor's of Science; Minor in Computer Science</em>
+      </li>
+      <li><strong>Undergraduate GPA:</strong> 3.2</li>
+    </ul>
+
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <!-- thead is formatted in bold by default -->
+      <th>Dates</th> <!-- th = table data but for headers -->
+      <th>Work</th> <!-- th can be used without thead, but it is not flexbile for formatting later -->
+    </thead>
+    <tbody>
+      <tr>
+        <!-- tr = table row -->
+        <td>2015-2018</td> <!-- td = table cells/data -->
+        <td>Resident Advisor at Carolina Housing</td>
+      </tr>
+      <tr>
+        <td>2018-Present</td>
+        <td>College Advisor at Garinger High School</td>
+      </tr>
+    </tbody>
+
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <!-- nested table exercise -->
+    <tbody>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Adobe Illustrator</td>
+              <td>⭐️⭐️⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>⭐️</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Python</td>
+              <td>⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>⭐️⭐️</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+
+
+  </table>
+  <hr>
+  <!-- On MDN when you scroll to the bottom it gives you a list of related tags -->
+  <h3><a href="hobbies.html" target="_blank">My Hobbies</a></h3> <!-- you can just type name of file if it is in the same directory -->
+  <h3><a href="contactme.html" target="_blank">Contact Me</a></h3>
+</body>
+
+</html>
